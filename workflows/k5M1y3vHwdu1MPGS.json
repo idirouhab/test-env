@@ -1,0 +1,99 @@
+{
+  "id": "k5M1y3vHwdu1MPGS",
+  "name": "My workflow 4",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -96,
+        0
+      ],
+      "id": "82b0904a-947e-4337-91a7-824875d58b4e",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "https://webhook.site/f22ef5a5-92ee-4239-8f58-11ad5d0ae3a8",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "azureOpenAiApi",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        352,
+        0
+      ],
+      "id": "e49f539d-44db-4d08-a7e8-9d785b485daa",
+      "name": "HTTP Request",
+      "credentials": {
+        "azureOpenAiApi": {
+          "id": "buAu5Db98HIUIHyz",
+          "name": "Azure Open AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "8de2826f-e8f8-43c6-b782-9688a244af56",
+              "name": "something",
+              "value": "pii",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        128,
+        0
+      ],
+      "id": "e35611a6-1945-431a-be27-267ec1583c25",
+      "name": "Edit Fields"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "3f3aaec5-d935-4b64-902c-002e37973b82",
+  "owner": {
+    "type": "personal",
+    "projectId": "13gXzN2Nk4jbMU1I",
+    "projectName": "Idir Ouhab <idir@test.com>",
+    "personalEmail": "idir@test.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
