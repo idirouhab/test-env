@@ -15,28 +15,6 @@
     },
     {
       "parameters": {
-        "url": "https://webhook.site/f22ef5a5-92ee-4239-8f58-11ad5d0ae3a8",
-        "authentication": "predefinedCredentialType",
-        "nodeCredentialType": "azureOpenAiApi",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        352,
-        0
-      ],
-      "id": "e49f539d-44db-4d08-a7e8-9d785b485daa",
-      "name": "HTTP Request",
-      "credentials": {
-        "azureOpenAiApi": {
-          "id": "buAu5Db98HIUIHyz",
-          "name": "Azure Open AI account"
-        }
-      }
-    },
-    {
-      "parameters": {
         "assignments": {
           "assignments": [
             {
@@ -73,13 +51,7 @@
     },
     "Edit Fields": {
       "main": [
-        [
-          {
-            "node": "HTTP Request",
-            "type": "main",
-            "index": 0
-          }
-        ]
+        []
       ]
     }
   },
@@ -87,12 +59,12 @@
     "executionOrder": "v1"
   },
   "triggerCount": 0,
-  "versionId": "3f3aaec5-d935-4b64-902c-002e37973b82",
+  "versionId": "fd40897c-a211-41ed-819d-d28f64ee774b",
   "owner": {
     "type": "personal",
-    "projectId": "13gXzN2Nk4jbMU1I",
-    "projectName": "Idir Ouhab <idir@test.com>",
-    "personalEmail": "idir@test.com"
+    "projectId": "ujQC6PWvAE2PF2N5",
+    "projectName": "Idir Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
   },
   "parentFolderId": null,
   "isArchived": false
