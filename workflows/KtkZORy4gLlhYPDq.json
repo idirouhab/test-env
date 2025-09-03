@@ -1,0 +1,35 @@
+{
+  "id": "KtkZORy4gLlhYPDq",
+  "name": "My workflow 7",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "fc5702c7-7497-48ce-ba63-ebc03b7484d2",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "c9bd5b66-b1ad-4f27-a0b7-32e61df64169",
+      "name": "Webhook",
+      "webhookId": "fc5702c7-7497-48ce-ba63-ebc03b7484d2"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "1da47314-c1d9-4aa1-b9aa-268062214992",
+  "owner": {
+    "type": "personal",
+    "projectId": "ujQC6PWvAE2PF2N5",
+    "projectName": "Idir Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
