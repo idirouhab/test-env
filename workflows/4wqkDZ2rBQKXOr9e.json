@@ -1,0 +1,74 @@
+{
+  "id": "4wqkDZ2rBQKXOr9e",
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "25ed2115-7896-4af1-a3d3-a1e3faebe38a",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "8cdfc760-06dc-45f0-a067-e881686e1fa9",
+      "name": "Webhook",
+      "webhookId": "25ed2115-7896-4af1-a3d3-a1e3faebe38a"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "qZZb6IAffhcbS4Xf",
+          "mode": "list",
+          "cachedResultName": "My workflow 2"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "87e11275-2bd6-47e9-b91f-4916f3734db4",
+      "name": "Execute Workflow"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Execute Workflow",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 1,
+  "versionId": "3f29fcb6-169a-408c-95f4-4de680c7f207",
+  "owner": {
+    "type": "personal",
+    "projectId": "6So14ZjXp8pzBlRe",
+    "projectName": "Idir Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

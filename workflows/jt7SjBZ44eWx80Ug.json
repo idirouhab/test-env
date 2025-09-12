@@ -7,12 +7,12 @@
     "executionOrder": "v1"
   },
   "triggerCount": 0,
-  "versionId": "aeb34237-5c09-4340-b181-5d33399db799",
+  "versionId": "d72374e5-0046-41cd-978c-45d0eae9d83e",
   "owner": {
     "type": "team",
     "teamId": "UsQAILvhVNrIPji0",
     "teamName": "My project"
   },
   "parentFolderId": null,
-  "isArchived": false
+  "isArchived": true
 }

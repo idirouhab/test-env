@@ -1,0 +1,36 @@
+{
+  "id": "Phd1tCFzGSTWMTu1",
+  "name": "My workflow 4",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "ef0e7655-67c2-48b7-a7b4-8e16ef698951",
+      "name": "Schedule Trigger"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 1,
+  "versionId": "c389d20a-0500-4061-9dad-0ed9ddcbc210",
+  "owner": {
+    "type": "team",
+    "teamId": "UsQAILvhVNrIPji0",
+    "teamName": "My project"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

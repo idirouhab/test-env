@@ -1,0 +1,33 @@
+{
+  "id": "qZZb6IAffhcbS4Xf",
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "983606b4-43cb-4822-8e1d-c90401b7ba74",
+      "name": "When Executed by Another Workflow"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "7606c549-fa24-4323-849c-8b34948a9e18",
+  "owner": {
+    "type": "personal",
+    "projectId": "6So14ZjXp8pzBlRe",
+    "projectName": "Idir Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
