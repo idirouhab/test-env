@@ -3,17 +3,6 @@
   "name": "My workflow 6",
   "nodes": [
     {
-      "parameters": {},
-      "type": "n8n-nodes-base.manualTrigger",
-      "typeVersion": 1,
-      "position": [
-        0,
-        0
-      ],
-      "id": "0dee0990-ae98-4253-ab12-642e73f854d8",
-      "name": "When clicking ‘Execute workflow’"
-    },
-    {
       "parameters": {
         "path": "887510a4-dcbb-4a8d-838d-61f1d61ad6cd",
         "options": {}
@@ -34,7 +23,7 @@
     "executionOrder": "v1"
   },
   "triggerCount": 1,
-  "versionId": "33881d07-164f-4868-ba7e-c01fd1a90da9",
+  "versionId": "e1fd2c5d-d10a-4735-a632-04d591cafde3",
   "owner": {
     "type": "team",
     "teamId": "WnI4ZELPtOwzTzEZ",
