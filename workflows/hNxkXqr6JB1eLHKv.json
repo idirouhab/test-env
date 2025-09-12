@@ -1,0 +1,19 @@
+{
+  "id": "hNxkXqr6JB1eLHKv",
+  "name": "My workflow 8",
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "38358891-72db-44ba-a530-9d1371cededb",
+  "owner": {
+    "type": "personal",
+    "projectId": "6So14ZjXp8pzBlRe",
+    "projectName": "Idir Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
