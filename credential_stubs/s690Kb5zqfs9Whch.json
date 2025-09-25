@@ -1,0 +1,15 @@
+{
+  "id": "s690Kb5zqfs9Whch",
+  "name": "Using string inside secret",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "={{ \"this one\" }}",
+    "value": "={{ $secrets }}"
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "ZLITVtA6Iw9vNLIK",
+    "projectName": "Idir  Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  }
+}
