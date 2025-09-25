@@ -1,0 +1,15 @@
+{
+  "id": "sqpdTAvqH9gxcERk",
+  "name": "Testing sync of expression",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "={{ $secrets }}",
+    "value": "={{ $secrets }}"
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "ZLITVtA6Iw9vNLIK",
+    "projectName": "Idir  Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  }
+}
