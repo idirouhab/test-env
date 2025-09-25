@@ -1,9 +1,9 @@
 {
   "id": "YdDGmgVqaDMhd0Dl",
-  "name": "Header Auth account 3",
+  "name": "Header Test",
   "type": "httpHeaderAuth",
   "data": {
-    "name": "",
+    "name": "={{ \"name\" }}",
     "value": "={{ $secrets }}"
   },
   "ownedBy": {
