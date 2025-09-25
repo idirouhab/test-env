@@ -1,0 +1,15 @@
+{
+  "id": "3lWwWasfUWEoi3Kz",
+  "name": "Testing strings of value",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "={{ $secrets.data||\"name\" }}",
+    "value": "={{ $secrets }}"
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "ZLITVtA6Iw9vNLIK",
+    "projectName": "Idir  Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  }
+}
