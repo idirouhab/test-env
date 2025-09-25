@@ -1,0 +1,15 @@
+{
+  "id": "a5SSaZ2o4M8s62Gt",
+  "name": "Credential with a string only",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "",
+    "value": "={{ $secrets }}"
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "ZLITVtA6Iw9vNLIK",
+    "projectName": "Idir  Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  }
+}
