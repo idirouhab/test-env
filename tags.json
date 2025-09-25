@@ -1,9 +1,34 @@
 {
   "tags": [
     {
-      "id": "FSWt39LiVaYzIm8J",
-      "name": "test"
+      "id": "VfE2RBYia8o1MUUs",
+      "name": "Platzi"
     }
   ],
-  "mappings": []
+  "mappings": [
+    {
+      "workflowId": "TzMlWUThxEOkkN2f",
+      "tagId": "VfE2RBYia8o1MUUs"
+    },
+    {
+      "workflowId": "btA0mMm5t2whMTNi",
+      "tagId": "VfE2RBYia8o1MUUs"
+    },
+    {
+      "workflowId": "OgB80UGESWFdtd5r",
+      "tagId": "VfE2RBYia8o1MUUs"
+    },
+    {
+      "workflowId": "NlM62L57hRsJvXWH",
+      "tagId": "VfE2RBYia8o1MUUs"
+    },
+    {
+      "workflowId": "Mzh6e03L5eDO93tJ",
+      "tagId": "VfE2RBYia8o1MUUs"
+    },
+    {
+      "workflowId": "TP22g4xW9K4UPznz",
+      "tagId": "VfE2RBYia8o1MUUs"
+    }
+  ]
 }

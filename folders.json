@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "id": "tQl7Z0RXQnAk8PHp",
+      "name": "Curso Básico",
+      "parentFolderId": null,
+      "homeProjectId": "ZLITVtA6Iw9vNLIK",
+      "createdAt": "2025-07-26T17:49:37.938Z",
+      "updatedAt": "2025-07-26T17:49:37.938Z"
+    },
+    {
+      "id": "pUW0irElYIBtbbhM",
+      "name": "Curso Intermedio",
+      "parentFolderId": null,
+      "homeProjectId": "ZLITVtA6Iw9vNLIK",
+      "createdAt": "2025-07-26T18:11:29.128Z",
+      "updatedAt": "2025-07-26T18:11:29.128Z"
+    }
+  ]
+}

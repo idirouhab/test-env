@@ -1,0 +1,15 @@
+{
+  "id": "YdDGmgVqaDMhd0Dl",
+  "name": "Header Auth account 3",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "",
+    "value": "={{ $secrets }}"
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "ZLITVtA6Iw9vNLIK",
+    "projectName": "Idir  Ouhab <idir@n8n.io>",
+    "personalEmail": "idir@n8n.io"
+  }
+}
